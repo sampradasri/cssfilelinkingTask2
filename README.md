@@ -1,0 +1,1 @@
+I have created a Personal Profile Page using HTML and CSS. I created a separate file for CSS, named it style.css and saved into same folder as the HTML file. Linked the css file to html using the <link> tag. Made it easy for clear readability and understanding.
