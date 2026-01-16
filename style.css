@@ -1,0 +1,167 @@
+
+body {
+  background-color: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.a4{
+  width: 210mm;
+  min-height:260mm;
+  margin:30px auto;
+  background-color: White;
+  box-sizing: border-box;
+  overflow:hidden;
+}
+
+/* ---------- Header ---------- */
+.header {
+  position: relative;
+  background-color: #0A1F44;
+  padding: 45px 40px 45px 200px;
+  color: white;
+  letter-spacing: 3px;
+  font-family:"Inter", sans-serif;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header p{
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Profile Image */
+.header img {
+  position: absolute;
+  top: 15px;
+  bottom:10px;
+  left: 30px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.navbar {
+  margin-top: 10px;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+/* ---------- Main Layout ---------- */
+.main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 0,35px;
+}
+
+/* ---------- Left Column ---------- */
+.left {
+  background-color: white;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+#contact h2 {
+  color: #0A1F44;
+  margin-bottom: 25px;
+  font-family:"Poppins", "Segoe UI", Arial, sans-serif;
+}
+
+#contact a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 12px;
+  font-size: 11px;
+}
+
+#contact i {
+  color: #0A1F44;
+  margin-right: 10px;
+}
+
+.left h2{
+  color: #0A1F44;
+  margin-bottom: 10px;
+  font-family:"Poppins", "Segoe UI", Arial, sans-serif;
+}
+ 
+
+.left pre{
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ---------- Right Column ---------- */
+.right {
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.right h2 {
+  color: #0A1F44;
+  margin-bottom: 10px;
+  font-family:"Poppins", "Segoe UI", Arial, sans-serif;
+}
+
+.right pre {
+  font-weight: normal;
+  font-size: 15px;
+  color: #000;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.right p {
+  line-height: 1.6;
+  font-size: 15px;
+  text-align: justify;
+  font-family:Arial, Helvatica, sans-serif;
+}
+
+.right ul {
+  padding-left: 20px;
+}
+
+.right li {
+  margin-bottom: 15px;
+}
+
+/* ---------- Divider ---------- */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  border-width:2px;
+  margin-bottom: 5px;
+  border-color: #0A1F44;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  background-color: #0A1F44;
+  color: white;
+  padding: 15px;
+  font-size: 12px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
